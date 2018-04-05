@@ -1,0 +1,113 @@
+a{
+    color:#ccc;
+}
+/*顶部设计*/
+.top{
+    height:100px;
+    position:relative;
+    background:black;
+    margin:0 0 5px 0;
+ }
+    #logo_conter{
+        display:inline-block;
+     }
+    #introduce{
+        position:absolute;
+        display:inline-block;
+        right:10px;
+        /*background:red;*/
+     }
+    
+    /*登录与注册*/
+        #loading{
+            position:absolute;
+            display:inline-block;
+            right:5px;
+            width:80px;
+        }
+       
+
+        /*搜索框*/ 
+        #search{
+            position:absolute;
+            display:inline-block;
+            top:40px;
+            right:600px;
+            /*background: #7BA7AB;*/
+        }
+            #search form{
+                position:relative;
+                width:300px;
+                height:30px;
+            }
+            #search input{
+                position:absolute;
+                right:50px;
+                width: 250px; 
+                height:30px;
+                border-radius: 42px; 
+                background: #F9F0DA;
+                border: 2px solid #324B4E;
+                transition: .3s linear; 
+                float: right;
+                color:#000;
+            }
+            #search input:focus{
+                width: 300px;
+            }
+            #search button img{
+                position:absolute;
+                 width:30px;
+                 height:30px;
+                 border-radius: 5px; 
+                  top: 2px; 
+                  right: 5px;
+            }
+
+
+
+/*景区推荐*/
+.showing{
+    line-height:28px;
+}
+
+
+/*导航栏设计*/
+.nagative .container{
+        height:400px;
+       /* background:red;*/
+     }
+        .contaier_btn{
+            position:relative;
+            height:50px;
+        }
+        .btn-group{
+            position:absolute;
+            left:150px;
+        }
+
+
+/*旅游新闻*/
+.travel-news-li{
+    color:blue;
+}
+
+/*底部设计*/
+.bottom{
+    width:80%;
+    height:120px;
+    /*background:#ccc;*/
+    margin:10px 10%;
+ }
+    .bottom #bottom_title{
+        font-size:60px;
+    }
+    .bottom div{
+        width:20%;
+        height:100px;
+        float:left;
+    } 
+    #small-annotation{
+        float:right;
+        margin:0 10px 1px;
+    }  

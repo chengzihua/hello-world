@@ -1,0 +1,153 @@
+/*顶部设计*/
+a{
+    color:#ccc;
+}
+.top{
+    height:100px;
+    position:relative;
+    background:black;
+    margin:0 0 5px 0;
+ }
+    #logo_conter{
+        display:inline-block;
+     }
+    #introduce{
+        position:absolute;
+        display:inline-block;
+        right:10px;
+        /*background:red;*/
+     }
+        /*.text-muted{
+                position:absolute;
+                top:2px;
+            }*/
+    
+    /*登录与注册*/
+        #loading{
+            position:absolute;
+            display:inline-block;
+            right:5px;
+            width:80px;
+           /* background:red;*/
+        }
+
+        /*时间表*/
+
+.bid{
+        width:300px;
+        height:50px;
+        /*background:#ccc;*/
+        color:#fff;
+        text-align:center;
+        font-family:微软雅黑;
+        font-size:30px;
+        line-height:50px;
+        border-radius:50px;
+      }
+     #time{
+        margin:30px 50px 0px 0px;
+        display:inline-block;
+        position:absolute;
+        right:50px;
+       }
+
+
+        /*搜索框*/ 
+        #search{
+            position:absolute;
+            display:inline-block;
+            top:40px;
+            right:800px;
+            /*background: #7BA7AB;*/
+        }
+            #search form{
+                position:relative;
+                width:300px;
+                height:30px;
+            }
+            #search input{
+                position:absolute;
+                right:50px;
+                width: 250px; 
+                height:30px;
+                border-radius: 42px; 
+                background: #F9F0DA;
+                border: 2px solid #324B4E;
+                transition: .3s linear; 
+                float: right;
+                color:#000;
+            }
+            #search input:focus{
+                width: 300px;
+            }
+            #search button img{
+                position:absolute;
+                 width:30px;
+                 height:30px;
+                 border-radius: 5px; 
+                  top: 2px; 
+                  right: 5px;
+            }
+
+.form-control{
+    display:inline-block;
+}
+.form-group .text-muted{
+    display:inline-block;
+}
+
+
+/*snack的轮播图样式*/
+*{
+    font-family:"微软雅黑","宋体","Segoe UI", "Lucida Grande", Helvetica, Arial,sans-serif, FreeSans, Arimo;
+    }
+    .logo {  
+    padding:0;  
+    }  
+    #myCarousel {  
+    margin: 0px 0 0 0;  
+    }  
+    #navbar-collapse ul {  
+    margin-top:0px;  
+    }  
+    .carousel-inner img{  
+        width:800px;
+        height:350px;
+        margin: 0 auto;  
+    }  
+
+    .carousel-control{  
+        font-size: 100px;  
+      
+    }  
+
+.tenant-story{
+    /*height:1050px;*/
+}
+
+
+/*底部设计*/
+.bottom{
+    width:80%;
+    height:120px;
+    /*background:#ccc;*/
+    margin:10px 10%;
+ 
+
+ }
+    .bottom #bottom_title{
+        font-size:60px;
+    }
+    .bottom div{
+        width:20%;
+        height:100px;
+        float:left;
+    } 
+    #small-annotation{
+        float:right;
+        margin:0 10px 1px;
+    }  
+
+
+
+        

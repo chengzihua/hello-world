@@ -1,0 +1,76 @@
+a{
+    color:#ccc;
+}
+/*顶部设计*/
+.top{
+    height:100px;
+    position:relative;
+    background:black;
+    margin:0 0 5px 0;
+ }
+    #logo_conter{
+        display:inline-block;
+     }
+    #introduce{
+        position:absolute;
+        display:inline-block;
+        right:10px;
+        /*background:red;*/
+     }
+    
+    /*登录与注册*/
+        #loading{
+            position:absolute;
+            display:inline-block;
+            right:5px;
+            width:80px;
+        }
+
+.diary_top .nav nav-pills{
+    display:inline-block;
+    position:;
+    float:right;
+}
+.diary_top button{
+    display:inline-block;
+    float:right;
+}
+
+
+
+/*热门游记设计*/
+.media-body{
+    position:relative;
+    height:100px;
+}
+.media-bottom{
+    position:absolute;
+    bottom:5px;
+}
+
+/*广告区域设计*/
+
+#populardiary_ad{
+    height:800px;
+    margin:50px 0 50px 0;
+}
+
+/*底部设计*/
+.bottom{
+    width:80%;
+    height:120px;
+    /*background:#ccc;*/
+    margin:10px 10%;
+ }
+    .bottom #bottom_title{
+        font-size:60px;
+    }
+    .bottom div{
+        width:20%;
+        height:100px;
+        float:left;
+    } 
+    #small-annotation{
+        float:right;
+        margin:0 10px 1px;
+    }  

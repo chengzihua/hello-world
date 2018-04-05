@@ -1,0 +1,131 @@
+/*  bs-huanhua.css  */
+
+/*body{
+	background:#000;
+}*/
+/*顶部设计*/
+.top{
+	height:100px;
+	position:relative;
+	background:black;
+	margin:0 0 5px 0;
+ }
+    #logo_conter{
+    	display:inline-block;
+     }
+    #introduce{
+    	position:absolute;
+    	display:inline-block;
+    	right:10px;
+     }
+        /*.text-muted{
+            	position:absolute;
+            	top:2px;
+            }*/
+
+
+        /*搜索框*/ 
+        #search{
+            position:absolute;
+            display:inline-block;
+            top:40px;
+            right:600px;
+            /*background: #7BA7AB;*/
+        }
+            #search form{
+                position:relative;
+                width:300px;
+                height:30px;
+            }
+            #search input{
+                position:absolute;
+                right:50px;
+                width: 250px; 
+                height:30px;
+                border-radius: 42px; 
+                background: #F9F0DA;
+                border: 2px solid #324B4E;
+                transition: .3s linear; 
+                float: right;
+                color:#000;
+            }
+            #search input:focus{
+                width: 300px;
+            }
+            #search button img{
+                position:absolute;
+                 width:30px;
+                 height:30px;
+                 border-radius: 5px; 
+                  top: 2px; 
+                  right: 5px;
+            }
+
+        /*登录与注册*/
+        #loading{
+            position:absolute;
+            display:inline-block;
+            right:5px;
+            width:80px;
+        }
+
+ 
+
+    
+
+/*导航栏设计*/
+.nagative .container{
+  	    height:450px;
+  	   /* background:red;*/
+     }
+        .contaier_btn{
+    	    position:relative;
+    	    height:50px;
+        }
+        .btn-group{
+        	position:absolute;
+        	right:450px;
+        }
+
+.nagative .container .btn{
+    width:120px;
+    height:40px;
+}
+
+    /*吃法模块设计*/
+.waytoeat .container{
+    	height:500px;
+    	/*background:#ccc;*/
+    }
+
+    /*小吃故事设计*/
+.snack_practice .container{
+	position:relative;
+	height:1000px;
+ }
+   .glyphicon glyphicon-triangle-right{
+   	position:absolute;
+   	right:300px;
+   }
+
+
+
+/*底部设计*/
+.bottom{
+	width:80%;
+	height:120px;
+	/*background:#ccc;*/
+	margin:10px 10%;
+}
+    .bottom #bottom_title{
+    	font-size:60px;
+    }
+    .bottom div{
+    	width:20%;
+    	height:100px;
+    	float:left;
+    } 
+    #small-annotation{
+        float:right;
+        margin:0 10px 1px;
+    }  
